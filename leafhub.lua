@@ -1,4 +1,4 @@
-print ("Hello, World!")-- Packed using RedlinePack v1.1.1
+-- Packed using RedlinePack v1.1.1
 local RayfieldLib = (function(...) -- ../Libraries/Rayfield.lua
     --[[
 
@@ -4037,6 +4037,8 @@ function validateKey(enteredKey)
         return true
     else
         return true
+    end
+end
 
 task.spawn(function()
     RayfieldLib:CreateWindow({
